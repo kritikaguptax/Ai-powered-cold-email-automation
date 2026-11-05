@@ -52,7 +52,7 @@ The generated email is automatically sent through Gmail, and the corresponding l
 
 ## Workflow Preview
 
-
+![image> alt](https://github.com/kritikaguptax/Ai-powered-cold-email-automation/blob/6eb108ccde8a76372e8d77d6babcd3130849e62e/Ai%20Powered%20Cold%20Email%20Automation%20.png)
 
 ## Setup & Configuration
 
