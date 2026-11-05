@@ -66,7 +66,7 @@ To build a similar workflow in n8n:
 6. Connect Gmail to send the generated emails.
 7. Add a Google Sheets update node to track sent emails.
 8. Configure the required credentials and test the workflow using sample leads.
-9. 
+   
 ## Future Improvements
 
 - Process multiple leads in a single execution.
