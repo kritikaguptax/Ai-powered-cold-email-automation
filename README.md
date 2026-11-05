@@ -54,18 +54,19 @@ The generated email is automatically sent through Gmail, and the corresponding l
 
 ![image> alt](https://github.com/kritikaguptax/Ai-powered-cold-email-automation/blob/6eb108ccde8a76372e8d77d6babcd3130849e62e/Ai%20Powered%20Cold%20Email%20Automation%20.png)
 
-## Setup & Configuration
+## How to Recreate
 
-To recreate this workflow:
+To build a similar workflow in n8n:
 
-1. Import the workflow JSON file into n8n.
-2. Connect your Google Sheets account.
-3. Connect your Gmail account.
-4. Configure Google Gemini credentials.
-5. Prepare a Google Sheet containing lead details such as name, company, website, email, and status.
-6. Configure the schedule trigger.
-7. Test the workflow with sample leads before enabling automated execution.
-
+1. Create a new workflow in n8n.
+2. Add a Schedule Trigger to initiate the automation.
+3. Connect Google Sheets to retrieve lead information.
+4. Integrate Google Gemini through an AI Agent to generate personalised cold emails.
+5. Add a Structured Output Parser to organise the email subject and body.
+6. Connect Gmail to send the generated emails.
+7. Add a Google Sheets update node to track sent emails.
+8. Configure the required credentials and test the workflow using sample leads.
+9. 
 ## Future Improvements
 
 - Process multiple leads in a single execution.
